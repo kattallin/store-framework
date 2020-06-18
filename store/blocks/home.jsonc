@@ -10,7 +10,11 @@
       "shelf",
       "slider-layout#home",
       "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile"
+      "responsive-layout.mobile#mobile",
+      "rich-text#desktop",
+      "rich-text#mobile",
+      "image#desktop",
+      "image#mobile"
     ]
   },
   "info-card#button-right": {
@@ -82,8 +86,7 @@
     "props": {
       "text": "#### Your Coffee, Your Way \n #### New Coffee Makers Collection",
       "textPosition": "CENTER",
-      "textAlignment": "CENTER",
-      "font": "t-heading-3"
+      "textAlignment": "CENTER"
     }
   },
 
