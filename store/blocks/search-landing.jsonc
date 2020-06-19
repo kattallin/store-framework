@@ -1,0 +1,23 @@
+{
+    "store.custom#landing": {
+        "blocks":[
+            "image#landing",
+            "search-result-layout.customQuery#landing"    
+        ]
+    },
+
+    "image#landing": {
+        "props":{
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
+            "minWidth": "100%"
+        }
+    },
+
+    "search-result-layout.customQuery#landing": {
+        "props":{
+            "orderByField": "OrderByReleaseDateDESC",
+            "maxItemsPerPage": 8,
+            "hideUnavailableItems": true
+        }
+    }
+}
