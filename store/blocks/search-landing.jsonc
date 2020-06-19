@@ -15,7 +15,7 @@
 
     "search-result-layout.customQuery#landing": {
         "props":{
-            "querySchema":{
+            "context":{
                 "orderByField": "OrderByReleaseDateDESC",
                 "maxItemsPerPage": 8,
                 "hideUnavailableItems": false
