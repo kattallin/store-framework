@@ -22,8 +22,8 @@
                 "orderByField": "OrderByReleaseDateDESC",
                 "maxItemsPerPage": 8,
                 "hideUnavailableItems": false,
-                "facetsBehavior": "Blue Top Retro Camera",
-                "skusFilter": "ft"
+                "facetsBehavior": "static",
+                "skusFilter": "ALL"
             }
         }
     },
@@ -31,7 +31,14 @@
     "search-result-layout.desktop": {
         "children": [
             "search-content"
-        ]
+        ],
+        "props":{
+            "hiddenFacets": {
+                "specificationFilters": {
+                    "hiddenFilters": "Blue Top Retro Camera"
+                }
+            }
+        }
     },
 
     "search-content": {
