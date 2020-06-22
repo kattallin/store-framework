@@ -1,31 +1,31 @@
 {
     "header": {
-        "blocks": [
-            "header-layout.desktop",
-            "header-layout.mobile"
-        ]
+      "blocks": [
+        "header-layout.desktop",
+        "header-layout.mobile"
+      ]
     },
     "header.full": {
-        "blocks": [
-          "header-layout.desktop",
-          "header-layout.mobile"
-        ]
+      "blocks": [
+        "header-layout.desktop",
+        "header-layout.mobile"
+      ]
     },
-    
+  
     "header-layout.desktop": {
-        "children": [
-          "header-row#notification",
-          "header-row#main"
-        ]
+      "children": [
+        "header-row#notification",
+        "header-row#main"
+      ]
     },
-
+  
     "header-layout.mobile": {
-        "children": [
-          "header-row#notification",
-          "header-row#main-mobile",
-          "header-row#search"
-        ]
-      },
+      "children": [
+        "header-row#notification",
+        "header-row#main-mobile",
+        "header-row#search"
+      ]
+    },
 
     "header-row#notification": {
         "children": [
@@ -36,14 +36,14 @@
     },
 
     "header-row#main": {
-        "children":[
+        "children": [
             "logo",
             "header-spacer",
             "search-bar",
             "minicart",
             "login"
         ],
-        "props":{
+        "blocks": {
             "inverted": true,
             "sticky": true,
             "fullWidth": false
@@ -66,10 +66,10 @@
       
     "header-row#search": {
         "children": [
-          "search-bar"
+            "search-bar"
         ],
         "props": {
-          "sticky": true
+            "sticky": true
         }
     },
 
@@ -92,4 +92,4 @@
           "textPosition": "CENTER"
         }
     }
-}
+  }
