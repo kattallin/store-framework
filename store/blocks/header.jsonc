@@ -43,7 +43,7 @@
             "minicart",
             "login"
         ],
-        "blocks": {
+        "props": {
             "inverted": true,
             "sticky": true,
             "fullWidth": false
